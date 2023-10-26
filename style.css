@@ -24,8 +24,31 @@ a {
 
 .card {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .card-text {
     max-width: 400px;
+}
+
+img {
+    height: 200px;
+}
+
+.card2 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.image-with-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images-with-desc {
+    display: flex;
+    gap: 20px;
 }
