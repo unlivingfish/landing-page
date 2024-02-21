@@ -6,3 +6,6 @@ Learning outcome
 Learning criteria
 1. be able to make a simple landing page using html, css, and style it using flexbox
 2. use git effectively
+
+Note: 
+Heyyyy I'm back baby
