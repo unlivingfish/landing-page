@@ -36,7 +36,7 @@ img {
     height: 200px;
 }
 
-.card2 {
+.section-two {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -51,4 +51,13 @@ img {
 .images-with-desc {
     display: flex;
     gap: 20px;
+}
+
+.section-one {
+    size: 100px;
+}
+
+.center-text-big {
+    font-size: large;
+    margin-bottom: 10px;
 }
