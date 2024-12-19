@@ -46,6 +46,7 @@ a {
     font-size: 24px;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     color:#f9faf8;
+    font-weight: 900;
 }
 
 .card {
@@ -146,7 +147,7 @@ a {
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding: 100px 0px;
+    padding: 80px 0px;
     background-color: #e5e7eb;
 }
 
@@ -172,7 +173,7 @@ a {
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding: 100px 0px;
+    padding: 60px 0px;
 }
 
 .call-to-action-box {
@@ -201,3 +202,12 @@ a {
     border-style: solid;
 }
 
+.footer {
+    width: 100%;
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
