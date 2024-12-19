@@ -21,6 +21,11 @@ body {
 
 } 
 
+.button-section-one:hover {
+    background-color: #f9faf8;
+    color:#3882f6;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
