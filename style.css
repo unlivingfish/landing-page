@@ -11,7 +11,7 @@
         font-size: 100%;
         vertical-align: baseline;
         background: transparent;
-        font-family: Arial, Helvetica, sans-serif
+        font-family: Roboto, Arial, Helvetica, sans-serif
     }
 
 body {
@@ -39,12 +39,12 @@ a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .logo {
     font-size: 24px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     color:#f9faf8;
 }
 
@@ -76,7 +76,7 @@ a {
     font-size: 48px;
     color:#f9faf8;
     font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     max-width: 400px;
 }
 
@@ -102,7 +102,7 @@ a {
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 100px;
 }
 
@@ -139,4 +139,31 @@ a {
     margin-bottom: 50px;
     color: #1F2937;
     font-weight: 900;
+}
+
+.section-three {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 100px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-by {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.quote-box {
+    max-width: 880px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
 }
