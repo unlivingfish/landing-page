@@ -60,7 +60,7 @@ a {
     color: #e5e7eb;
     font-size: small;
     font-family: sans; 
-    padding-bottom: 5px;
+    padding: 8px 0px;
 }
 
 .jellyfish {
@@ -83,7 +83,7 @@ a {
 .button-section-one {
     background-color: #3882f6;
     padding: 5px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: small;
     color:#f9faf8;
     font-weight: bold;
@@ -146,19 +146,18 @@ a {
     display: flex;
     flex-flow: column;
     align-items: center;
-    padding: 100px;
+    padding: 100px 0px;
     background-color: #e5e7eb;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
 }
 
 .quote-by {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .quote-box {
@@ -167,3 +166,38 @@ a {
     flex-flow: column;
     align-items: flex-end;
 }
+
+.section-four {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.call-to-action-box {
+    width: 880px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action-head {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.call-to-action-body {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.white-border {
+    border: #e5e7eb;
+    border-style: solid;
+}
+
